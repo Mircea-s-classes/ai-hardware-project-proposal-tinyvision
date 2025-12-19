@@ -29,7 +29,7 @@ Members: Maria Molchanova, Rohina Naqshbandi, & Jordan Ho
 Our goal was to develop a real-time face sentiment analysis system that can detect emotions from facial expressions. This is particularly important in healthcare, where understanding a patient’s emotional state can significantly enhance care (e.x. in therapy and other treatments). By using TinyML to create these Facial Expression Recognition (FER) models, we can ensure our solution is efficient, low-latency, and energy-efficient, making it practical for everyday use. 
 
 ## 3. Chosen Hardware
-We used the OpenMVH7 plus. The device features a Cortex M7 processor at 480 MHz and 32 MB SDRAM, with an OV5640 image sensor for taking images.
+We used the OpenMVH7 plus. The device features a Cortex M7 processor at 480 MHz with 1 MB SRAM and 32 MB SDRAM, with an OV5640 image sensor for taking images.
 
 ## 4. Technical Objectives
 &emsp;Initial objectives were to implement and optimize a facial emotion detection pipeline that efficiently maps to both software (ML model) and hardware (OpenMV H7 architecture) components, and differentiates between several classes of faces (happy, sad, neutral, etc) with >80 percent accuracy and at a rate of >20 frames per second.
