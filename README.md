@@ -74,7 +74,9 @@ The final model size was cut down to ~77k parameters. The final accuracy was 83%
 
 ## 6. Results Discussion
 &emsp;The final CNN model was successfully deployed on the Cam H7 Plus with an average inference speed of ~5 FPS. Its TFLite model footprint contained ~160 KB RAM peak usage and ~160 KB flash, making it suitable for embedded deployment. Real-world testing demonstrated that it was highly accurate in predicting facial expressions across ALL 5 classes.
+
 &emsp;The final MobileNetV2 training also successfully deployed on the Cam H7 Plus with an average inference speed of ~21 FPS, a big improvement over the final CNN model. Differentiation between positive, neutral, and negative facial expressions was demonstrated to be quite clean in real-world testing across all team members. Despite being 2287 KB in size for flash memory usage, the model is surprisingly fast, most likely due to the highly optimized and efficient architecture from the MobileNetV2's Inverted Residuals and Linear Bottlenecks.
+
 &emsp;In conclusion, we successfully achieved our goals of 80%+ accuracy and >3 frames per second during inference for our final FER models. The final CNN achieved 83% in training, inferencing at 5 FPS. The final MobileNetV2 achieved almost 80% in validation, making up for its lower accuracy with a much faster 21 FPS during inference. Our future work includes defining set Cam H7 Plus testing standards for image lighting, contrast, and background so that we can better define a final accuracy for our models across different people
 Additionally, we could explore hyperparameter optimizations for the learning rate, regularization strength, etc.---which for this project were mainly done using observation-based tweaks. This would allow us to achieve higher accuracy and faster inference times, all optimized to fit within the memory modules and computing capability of the OpenMV Cam H7 Plus.
 
