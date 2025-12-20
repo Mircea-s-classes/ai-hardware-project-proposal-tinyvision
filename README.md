@@ -102,6 +102,8 @@ https://www.tensorflow.org/
 
 https://github.com/vicksam/fer-model
 
+https://stackoverflow.com/questions/51995977/how-can-i-use-a-pre-trained-neural-network-with-grayscale-images
+
 https://github.com/7abushahla/Student-Engagement/blob/main/notebooks/train_and_quantize.ipynb
 
 Abushahla, H. A., Gharaibeh, R., Elmugamer, L., Reza Sajun, A. &  Zualkernan, I. A. (2025). Real-Time Student Engagement Monitoring on Edge Devices: Deep Learning Meets Efficiency and Privacy. 2025 IEEE Global Engineering Education Conference (EDUCON), London, United Kingdom, 2025, pp. 1-9, doi: 10.1109/EDUCON62633.2025.11016436.
